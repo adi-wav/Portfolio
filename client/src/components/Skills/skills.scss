@@ -1,0 +1,101 @@
+.skills{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    width: 98vw;
+}
+
+.skills h1{
+    text-decoration: underline;
+}
+
+.skills-boxes{
+    display: flex;
+}
+
+.skills-bar{
+    // border: 2px solid white;
+    margin: 8vh 5vh 0 11vw;
+    height: 55vh;
+    width: 30vw;
+    padding-left: 5px;
+}
+
+.skills-bar p{
+    margin-top: 0;
+}
+
+.skills-bar-box{
+    position: relative;
+    padding: 11px;
+    border: 1px solid white;
+    border-radius: 7px;
+    -webkit-box-shadow: 1px 1px 22px -5px rgba(255,255,255,1);
+    -moz-box-shadow: 1px 1px 22px -5px rgba(255,255,255,1);
+    box-shadow: 1px 1px 22px -5px rgba(255,255,255,1);
+}
+
+.skills-bar-content{
+    position: relative;
+    z-index: 1;
+}
+
+.overlay-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-out;
+    background-color: white;
+    height: 111%;
+    width: 100%;
+    border-radius: 7px;
+    margin: 0;
+    padding: 0;
+}
+
+.skills-bar-box:hover .overlay-image{
+    visibility: visible;
+}
+
+.skills-projects{
+    // border: 2px solid white;
+    margin: 8vh 0 0vw 4vw;
+    height: 50vh;
+    width:30vw;
+}
+.skills-projects-box{
+    padding: 11px;
+    border: 1px solid white;
+    border-radius: 7px;
+    -webkit-box-shadow: 1px 1px 22px -5px rgba(255,255,255,1);
+    -moz-box-shadow: 1px 1px 22px -5px rgba(255,255,255,1);
+    box-shadow: 1px 1px 22px -5px rgba(255,255,255,1);
+    
+}
+.skills-projects p{
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+hr{
+    height: 4px;
+    margin: -10px 0 25px 0;
+    background-color: white;
+}
+
+.skills-projects button{
+    // cursor:default;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 27px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.skills-projects button:hover{
+    background-color: white;
+    color: black;
+}

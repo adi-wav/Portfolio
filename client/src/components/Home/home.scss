@@ -1,0 +1,53 @@
+.home{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    width: 98vw;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo{
+    margin-left:10vw;
+}
+
+.photo:hover{
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.intro{
+    margin-left: 10vw;
+    width: 30vw;
+    justify-content: center;
+}
+
+.pic{
+    height: 52vh;
+    filter: grayscale(100%);
+}
+.pic:hover{
+    filter:grayscale(10%)
+}
+
+h1{
+    font-weight: 800;
+}
+h3{
+    font-weight: 700;
+}
+
+h2{
+    margin: 0;
+}
+
+.btn{
+    height: 35px;
+    border-radius: 8px;
+    background-color: #2d2c2c;
+    cursor: pointer;
+}
